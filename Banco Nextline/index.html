@@ -14,21 +14,31 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <aside class="left-header">
-                <button type="button" class="menu-hamburguer" aria-hidden="false">
+                <button type="button" class="menu-hamburguer" id="menu-toggle" aria-label="Abrir menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
             </aside>
             <aside class="right-header">
-                <div class="title-nextline"><img src="images/logonextline.png" alt="menu" class="imagenext"></div>
+                <div class="title-nextline">
+                    <img src="images/logonextline.png" alt="Logo do NextLine" class="imagenext">
+                </div>
             </aside>
         </nav>
     </header>
     <section>
         <article class="parte1">
             <img src="" alt="Imagem descrição cliente" srcset="">
-            <p>Você que está cansado, ou cansada de tantos bancos que cobram juros abusivos, venha para o NextLine!</p>
+            <p>Somos um banco que trabalha com o melhor </p>
         </article>
     </section>
     <section>
@@ -38,10 +48,10 @@
         </article>
     </section>
     <footer>
-        <aside></aside>
-        <aside></aside>
-        <aside></aside>
+        <aside>esquerda</aside>
+        <aside>meio</aside>
+        <aside>final</aside>
     </footer>
 </body>
-<script src=""></script>
+<script src="script.js"></script>
 </html>
