@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    text
 }
 
 .imagenext {
@@ -78,7 +79,7 @@ Mobile first
         background-color: gray;
         padding: 3%;
         gap: 15px;
-        transition: 0.7;
+        transition: 5.0;
     }
 
     /* MENU QUANDO ESTIVER ATIVO */
@@ -95,7 +96,6 @@ Mobile first
     .imagenext {
         width: 150px;
         height: 50px;
-        margin: 0;
     }
 
     .parte1,
@@ -107,5 +107,34 @@ Mobile first
 
     .title-nextline{
         padding-left: 10%;
+    }
+
+    .test {
+        background-color: red;
+        width: 100%;
+        height: auto;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+
+    }
+
+    .description1, 
+    .description2, 
+    .description3{
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+        border-radius: 5px;
+        margin-top: 5%;
+        padding: 3%;
+
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: brown;
     }
 }
